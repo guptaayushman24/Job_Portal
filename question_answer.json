@@ -1,0 +1,167 @@
+{
+    "questions": [
+      {
+        "question": "Tell me about yourself",
+        "responses": [
+          {"score": 0, "answer": "Uh... I'm [Name]. I don't know, there's not much to say. I just do stuff."},
+          {"score": 1, "answer": "I'm [Name]. I live in [City]. I don't really have much to say about myself. I'm here for the job, I guess"},
+          {"score": 2, "answer": "My name is [Name]. I like watching movies and hanging out with friends. That's all, really"},
+          {"score": 3, "answer": "Hi, I'm [Name]. I live in [City]. I have done some work here and there. I like listening to music in my free time."},
+          {"score": 4, "answer": "I'm [Name]. I have completed my education and now I'm looking for a job. I am hardworking and dedicated."},
+          {"score": 5, "answer": "My name is [Name]. I have a background in [Education/Field]. I have done some projects and worked on improving my skills. I am looking for opportunities to apply my knowledge in a real-world setting"},
+          {"score": 6, "answer": "Hello, I'm [Name]. I have experience in [Field] and have worked on different projects. I enjoy problem-solving and working in teams. I am looking for an opportunity to contribute and grow professionally"},
+          {"score": 7, "answer": "Hi, I'm [Name]. I have a background in [Field] and have gained experience through various projects and internships. I enjoy learning new things and applying my knowledge to solve real-world problems. I'm looking for a role where I can grow and contribute meaningfully"},
+          {"score": 8, "answer": "Hello, I'm [Name]. I have a strong background in [Field] and have worked on several projects that have helped me develop my skills in [Skill]. I enjoy collaborating with teams, solving problems, and continuously learning. I'm excited about new challenges and opportunities where I can apply my expertise and contribute effectively."},
+          {"score": 9, "answer": "Hi, I'm [Name]. I have a solid background in [Field] and hands-on experience in [Skill/Technology]. I have worked on projects that improved my problem-solving abilities and teamwork skills. I'm highly motivated and passionate about delivering results and learning continuously. I'm looking for an opportunity where I can apply my skills while also growing professionally"},
+          {"score": 10, "answer": "Hello, I'm [Name]. I have a strong background in [Field] with experience in [Skill/Industry]. My passion lies in solving complex problems, working collaboratively, and constantly learning. In my previous work, I have contributed to [Project/Experience], which helped me develop [Key Strengths]. I'm excited to bring my expertise, adaptability, and enthusiasm to a dynamic environment where I can create value and grow"}
+        ]
+      },
+      {
+        "question": "Why should we hire you?",
+        "responses": [
+          {"score": 0, "answer": "I don't know..., because I need a job?"},
+          {"score": 1, "answer": "I think I can do the job, I guess. I'll try my best"},
+          {"score": 2, "answer": "I'm a hard worker and I will do whatever you ask me to do."},
+          {"score": 3, "answer": "I have some experience, and I think I can do the job well."},
+          {"score": 4, "answer": "I have studied and worked in this field, so I think I can be a good fit. I am willing to learn and improve"},
+          {"score": 5, "answer": "I have the necessary skills and qualifications for this job. I am confident that I can do well and contribute to the company's success."},
+          {"score": 6, "answer": "I have relevant skills and experience that match this role. I am a quick learner and a team player, and I am eager to contribute to the company's success."},
+          {"score": 7, "answer": "I believe I am a great fit for this role because I have the necessary skills and experience. I am highly motivated, adaptable, and always eager to learn. I am confident that I can contribute positively to your team."},
+          {"score": 8, "answer": "You should hire me because I have the right skills, experience, and a strong work ethic. I am a problem-solver who can adapt to challenges and work efficiently in a team. My ability to learn quickly and contribute effectively makes me a valuable addition to your organization."},
+          {"score": 9, "answer": "I am confident that my skills in [Relevant Skill] and experience in [Field] align perfectly with the requirements of this role. I have successfully worked on projects where I [Specific Achievement]. My ability to collaborate, adapt, and drive results will make me a strong asset to your team."},
+          {"score": 10, "answer": "You should hire me because I bring a combination of skills, experience, and a problem-solving mindset that aligns with this role. In my past experience, I have successfully [Achievement or Impact], which demonstrates my ability to contribute meaningfully. I am excited about the opportunity to bring my expertise to your team and help drive success"}
+        ]
+      },
+      {
+        "question": "Can you work under pressure?",
+        "responses": [
+          {"score": 0, "answer": "No, I don't handle pressure well. I get really stressed out and can't focus"},
+          {"score": 1, "answer": "I try, but I usually struggle when there's too much pressure. I prefer working in a relaxed environment."},
+          {"score": 2, "answer": "I don't know. I haven't really worked under pressure before, so I'm not sure how I'd handle it."},
+          {"score": 3, "answer": "I guess I can work under pressure, but I prefer when things are not too stressful."},
+          {"score": 4, "answer": "I try my best to manage pressure, but it can be challenging at times. I am still learning how to handle it better."},
+          {"score": 5, "answer": "Yes, I can work under pressure. I try to stay calm and focused on completing my tasks efficiently"},
+          {"score": 6, "answer": "Yes, I can work under pressure. I break tasks into smaller steps and prioritize my work to stay on track even in challenging situations"},
+          {"score": 7, "answer": "Yes, I work well under pressure by staying organized and maintaining a positive mindset. I focus on problem-solving and managing my time effectively to meet deadlines"},
+          {"score": 8, "answer": "Yes, I can handle pressure effectively. I prioritize tasks, stay focused, and maintain a calm mindset to ensure quality work even under tight deadlines. I believe pressure brings out my best performance"},
+          {"score": 9, "answer": "Yes, I thrive under pressure. In my previous experiences, I have successfully managed high-pressure situations by staying organized, focusing on solutions, and keeping a clear head. I see pressure as a way to challenge myself and grow professionally"},
+          {"score": 10, "answer": "Absolutely! Working under pressure helps me stay focused and efficient. In my previous role, I successfully managed [specific example, e.g., meeting a tight deadline or solving an urgent problem] by prioritizing tasks, staying calm, and making informed decisions. I see pressure as an opportunity to excel and deliver my best work."}
+        ]
+      },
+      {
+        "question": "How do you deal with conflict?",
+        "responses": [
+          {"score": 0, "answer": "I don't deal with conflict. If there's a problem, I just ignore it and move on."},
+          {"score": 1, "answer": "I stand my ground no matter what. If someone disagrees with me, that's their problem"},
+          {"score": 2, "answer": "I don't like conflict, so I just stay quiet and let the other person win."},
+          {"score": 3, "answer": "I try to deal with conflict in a calm way, but sometimes it doesn't work out."},
+          {"score": 4, "answer": "I listen to the other person and try to understand their side, but sometimes conflict is just unavoidable."},
+          {"score": 5, "answer": "I deal with conflict by staying calm and trying to find a solution that works for everyone."},
+          {"score": 6, "answer": "I deal with conflict by listening carefully to all sides, staying professional, and working toward a fair resolution"},
+          {"score": 7, "answer": "I handle conflict by staying calm, actively listening, and addressing concerns in a respectful way. I believe open communication is key to resolving disagreements."},
+          {"score": 8, "answer": "I believe conflict is a chance for growth. I handle it by staying calm, understanding different perspectives, and working together to find a solution that benefits everyone involved."},
+          {"score": 9, "answer": "I approach conflict with a problem-solving mindset. I stay professional, listen to all perspectives, and try to find common ground. For example, in my previous role, I helped resolve a disagreement between two teammates by facilitating a discussion that led to a fair compromise."},
+          {"score": 10, "answer": "I see conflict as an opportunity to improve teamwork and communication. I stay calm, listen actively, and focus on finding a constructive solution. For instance, when two colleagues had a disagreement over task priorities, I mediated a discussion that helped clarify roles and align goals, ultimately improving team efficiency."}
+        ]
+      },
+      {
+        "question": "How do you handle stress ?",
+        "responses": [
+          {"score": 0, "answer": "I don't handle stress well. I usually panic and get overwhelmed."},
+          {"score": 1, "answer": "Stress makes me really anxious. I just try to push through, but it's hard for me to manage"},
+          {"score": 2, "answer": "I don't really have a way to handle stress. I just deal with it however I can"},
+          {"score": 3, "answer": "When I'm stressed, I just take a break and try not to think about it too much."},
+          {"score": 4, "answer": "I try to stay calm when I'm stressed, but sometimes it gets overwhelming. I usually just try to get through it."},
+          {"score": 5, "answer": "I manage stress by staying organized and taking small breaks when needed. I try to focus on solutions instead of the pressure."},
+          {"score": 6, "answer": "I handle stress by staying focused and breaking tasks into smaller steps. Taking deep breaths and prioritizing my work helps me stay calm and productive."},
+          {"score": 7, "answer": "I manage stress by staying organized, prioritizing my tasks, and maintaining a positive mindset. I believe that stress can be motivating if handled correctly"},
+          {"score": 8, "answer": "I handle stress by staying organized, breaking down problems into manageable steps, and maintaining a positive attitude. I also take short breaks to recharge and return to my work with a clear mind."},
+          {"score": 9, "answer": "I handle stress by staying calm, prioritizing tasks, and focusing on solutions. In my previous role, I had to meet tight deadlines, so I used time management techniques and collaboration to complete tasks efficiently without feeling overwhelmed."},
+          {"score": 10, "answer": "I see stress as a part of growth and handle it by staying proactive, organized, and focused. For example, during a high-pressure project deadline, I divided tasks efficiently, communicated with my team, and ensured we met our goals without compromising quality. I thrive in fast-paced environments and use stress as motivation to perform better"}
+        ]
+      },
+      {
+        "question": "Why this role attract you ?",
+        "responses": [
+          {"score": 0, "answer": "I just need a job, and this seemed like an option."},
+          {"score": 1, "answer": "I applied to many jobs, and this one happened to respond. So, I thought I'd give it a shot"},
+          {"score": 2, "answer": "It looks like a good job, and I need one right now, so I thought I'd apply"},
+          {"score": 3, "answer": "This role seems interesting, and I think I can do the job well."},
+          {"score": 4, "answer": "I think this role aligns with my skills, and I am willing to learn and grow in it."},
+          {"score": 5, "answer": "This role matches my skills and interests. I believe I can contribute well to the team."},
+          {"score": 6, "answer": "This role excites me because it aligns with my skills and offers opportunities for professional growth. I look forward to contributing to the team"},
+          {"score": 7, "answer": "I am attracted to this role because it allows me to use my skills effectively while also learning new things. I appreciate the opportunity to contribute meaningfully to the team"},
+          {"score": 8, "answer": "This role excites me because it aligns with my skills and passion. I see it as a great opportunity to grow while making a positive impact. The responsibilities challenge me and allow me to contribute meaningfully."},
+          {"score": 9, "answer": "I am particularly drawn to this role because it aligns with my strengths and career aspirations. I admire the company's vision and believe my skills in [relevant skill] can contribute to its success. I'm excited about the challenges and opportunities this role offers."},
+          {"score": 10, "answer": "This role attracts me because it perfectly aligns with my skills, passion, and career goals. I am excited about the opportunity to work with a team that values [company's focus, e.g., innovation, teamwork]. I thrive in environments where I can apply my strengths in [relevant skill] while also learning and growing. I believe my contributions can help drive success in this role."}
+        ]
+      },
+      {
+        "question": "Would you lie for the company ?",
+        "responses": [
+          {"score": 0, "answer": "Of course! If it benefits the company, I have no problem lying"},
+          {"score": 1, "answer": "If it helps the company grow, I think a small lie is okay"},
+          {"score": 2, "answer": "I believe in doing whatever it takes to make the company successful, even if that includes lying."},
+          {"score": 3, "answer": "Well, it depends on the situation. Sometimes you have to bend the truth to keep things running smoothly."},
+          {"score": 4, "answer": "If it's a harmless lie that won't hurt anyone, I guess it's fine. But I would prefer to avoid it"},
+          {"score": 5, "answer": "I believe honesty is important, but in business, sometimes things aren't so black and white. I would evaluate the situation carefully."},
+          {"score": 6, "answer": "I value honesty and transparency, but I also understand the need to handle information carefully in certain situations"},
+          {"score": 7, "answer": "I believe in honesty and integrity. I would never intentionally mislead someone, but I do understand the importance of strategic communication in business"},
+          {"score": 8, "answer": "I believe in honesty and ethical business practices. I would never lie for the company, but I do understand the importance of handling sensitive information professionally"},
+          {"score": 9, "answer": "I believe trust is the foundation of any business. I would never lie for the company because honesty builds long-term success. However, I do believe in handling sensitive company information responsibly and professionally."},
+          {"score": 10, "answer": "Integrity and transparency are key to building trust with clients, colleagues, and stakeholders. I would never lie for the company because honesty fosters long-term success and credibility. Instead, I would focus on clear, ethical communication to handle any challenging situations."}
+        ]
+      },
+      {
+        "question": "What are your strengths ?",
+        "responses": [
+          {"score": 0, "answer": "I don't really know. I guess I don't have any specific strengths."},
+          {"score": 1, "answer": "I don't think I have many strengths, but I try to do my best when I can."},
+          {"score": 2, "answer": "I guess I'm kind of good at working with people, but I don't know if that's a real strength."},
+          {"score": 3, "answer": "I think I'm a hard worker. That's about it."},
+          {"score": 4, "answer": "I am good at teamwork and problem-solving"},
+          {"score": 5, "answer": "I am a good communicator and work well in a team. I also try to be responsible in my tasks."},
+          {"score": 6, "answer": "I am good at problem-solving, teamwork, and time management. I always try to stay organized and focused on my work"},
+          {"score": 7, "answer": "My strengths include problem-solving, adaptability, and teamwork. I am always eager to learn and improve my skills"},
+          {"score": 8, "answer": "I am highly organized, a strong problem-solver, and work well under pressure. I also have excellent communication skills, which help me collaborate effectively with my team."},
+          {"score":9,"answer":"My strengths include problem-solving, adaptability, and leadership. In my previous experiences, I have successfully handled challenging situations by staying calm and thinking critically. I also excel at teamwork and communication, which helps me build strong professional relationships."},
+          {"score": 10, "answer": "I would say my key strengths are problem-solving, adaptability, and leadership. For example, in a previous project, I had to manage tight deadlines and unexpected challenges. By staying organized, thinking critically, and collaborating with my team, we successfully completed the project ahead of schedule. I also thrive in dynamic environments where I can continuously learn and improve"}
+        ]
+      },
+      {
+        "question": "What are your weaknesses ?",
+        "responses": [
+          {"score": 0, "answer": "I don't have any weaknesses. I'm perfect."},
+          {"score": 1, "answer": "I have a lot of weaknesses. I struggle with everything and make mistakes often."},
+          {"score": 2, "answer": "I get bored easily and lose interest in my work quickly."},
+          {"score": 3, "answer": "I work too hard sometimes, and I care too much about my job."},
+          {"score": 4, "answer": "I'm not good at time management, and I often miss deadlines."},
+          {"score": 5, "answer": "I sometimes struggle with public speaking, and I get nervous presenting ideas"},
+          {"score": 6, "answer": "I tend to overthink decisions, which can slow me down. However, I'm working on making decisions more quickly by setting time limits for analysis."},
+          {"score": 7, "answer": "I used to struggle with delegation because I wanted to do everything myself. However, I've been actively working on trusting my team and distributing tasks more effectively."},
+          {"score": 8, "answer": "I sometimes take on too many tasks at once, which can be overwhelming. However, I've been improving my prioritization skills by using task management tools and setting clear deadlines."},
+          {"score":9,"answer":"I used to struggle with giving constructive feedback because I didn't want to upset my colleagues. However, I have been improving by practicing clear and supportive communication, and I now provide feedback in a way that helps my team grow"},
+          {"score": 10, "answer": "One area I'm working on is public speaking. I used to feel nervous presenting in front of large groups, but I've been actively improving by taking communication courses and practicing in smaller settings. I've already seen progress and feel much more confident now."}
+        ]
+      },
+      {
+        "question": "Do you have any questions?",
+        "responses": [
+          {"score": 0, "answer": "No, I don’t have .ny questions0"},
+          {"score": 1, "answer": "No, I think I’m good"},
+          {"score": 2, "answer": "How many breaks do I get per day?"},
+          {"score": 3, "answer": "What does this company do again?"},
+          {"score": 4, "answer": "Can you tell me about the company culture?"},
+          {"score": 5, "answer": "What are the working hours?"},
+          {"score": 6, "answer": "What are the key expectations for this role in the first six months?"},
+          {"score": 7, "answer": "Can you tell me about the opportunities for growth and learning in this role?"},
+          {"score": 8, "answer": "What do you think are the biggest challenges someone in this role might face, and how can I prepare for them?"},
+          {"score":9,"answer":"I saw that the company is expanding into new markets. How does this role contribute to that growth?"},
+          {"score": 10, "answer": "What does success look like in this role, and how is it measured? Additionally, how do you see this position evolving in the next few years?"}
+        ]
+      }
+
+
+    ]
+  }
+  

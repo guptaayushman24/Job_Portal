@@ -1,0 +1,19 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+.interviewdiv{
+    height: 40rem;
+    width: 50rem;
+    background-color: #bc61fe;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.interviewdivparent{
+    display: flex;
+    justify-content: center;
+}

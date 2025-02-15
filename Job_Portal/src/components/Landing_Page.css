@@ -1,0 +1,129 @@
+*{
+  background-color: #f0f9ff;
+}
+.Header {
+    display: flex;
+    justify-content: space-between; /* Spread items across the container */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Optional background */
+    border-bottom: 1px solid #ccc; /* Optional border */
+  }
+  
+  .websitename {
+    display: flex; /* Enable alignment of the heading and button */
+    align-items: center; /* Vertically align the button with the text */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .post-job-btn {
+    margin-left: 10px; /* Add spacing between the heading and the button */
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0078d7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post-job-btn:hover {
+    background-color: #005bb5;
+  }
+  
+  .subheader {
+    display: flex;
+    gap: 10px; /* Add spacing between LogIN and Register buttons */
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0078d7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+
+.Midpage{
+  display:flex;
+  flex-direction: row;
+  margin-top: 10rem;
+}
+.title{
+  width: 75%;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.logo{
+  margin-bottom: 0.5rem;
+}
+img{
+  width: 25rem;
+  height: 20rem;
+}
+.highlight {
+  display: inline-block;
+  font-size: 30px; 
+  color: #0078d7;
+  animation: slideEffect 5s infinite; 
+  white-space: nowrap;
+}
+
+
+@keyframes slideEffect {
+  0% {
+    transform: translateX(100%);  
+    opacity: 0; 
+  }
+  25% {
+    transform: translateX(0); 
+    opacity: 1; 
+  }
+  75% {
+    transform: translateX(0); 
+    opacity: 1; 
+  }
+  100% {
+    transform: translateX(-100%); 
+    opacity: 0;
+  }
+}
+
+.Footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  padding: 2rem;
+  border: 2px solid white;
+  background-color: #d8ecfe;
+}
+.active_workers{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.number{
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.text{
+  text-align: center;
+}
+
+
+
+
+  

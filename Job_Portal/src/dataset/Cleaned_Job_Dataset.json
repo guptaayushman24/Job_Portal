@@ -1,0 +1,902 @@
+[
+ {
+  "Company Name": "Company 63",
+  "Job Title": "Data Scientist",
+  "Job Description": "Analyze and interpret complex data to provide insights. Build predictive models using Python, SQL, and machine learning techniques.",
+  "Skills Required": "Python, SQL, Machine Learning",
+  "Salary": 14,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 65",
+  "Job Title": "Data Scientist",
+  "Job Description": "Analyze and interpret complex data to provide insights. Build predictive models using Python, SQL, and machine learning techniques.",
+  "Skills Required": "Python, SQL, Machine Learning",
+  "Salary": 13,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 43",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 19,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 10",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 10,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 55",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 14,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 33",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 17,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 10",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 4,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 86",
+  "Job Title": "Software Developer",
+  "Job Description": "Ensure the security of systems and mitigate potential threats.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 6,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 53",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 12,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 4",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 13,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 74",
+  "Job Title": "Data Scientist",
+  "Job Description": "Analyze and interpret complex data to provide insights. Build predictive models using Python, SQL, and machine learning techniques.",
+  "Skills Required": "Python, SQL, Machine Learning",
+  "Salary": 10,
+  "Location": "Hyderabad",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 56",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 4,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 44",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 7,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 38",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 8,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 45",
+  "Job Title": "Software Developer",
+  "Job Description": "Automate infrastructure and CI\/CD pipelines.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 13,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 49",
+  "Job Title": "Software Developer",
+  "Job Description": "Create robust backend services and APIs.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 3,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 77",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 3,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 58",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 13,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 88",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 6,
+  "Location": "Hyderabad",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 82",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 13,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 21",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 9,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 40",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 4,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 41",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 19,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 11",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 10,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 75",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Build and optimize user-facing interfaces and experiences.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 13,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 19",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 10,
+  "Location": "Hyderabad",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 58",
+  "Job Title": "Data Scientist",
+  "Job Description": "Analyze and interpret complex data to provide insights. Build predictive models using Python, SQL, and machine learning techniques.",
+  "Skills Required": "Python, SQL, Machine Learning",
+  "Salary": 4,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 98",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 4,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 70",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Create robust backend services and APIs.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 12,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 23",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 14,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 33",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 17,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 67",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 17,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 50",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 9,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 28",
+  "Job Title": "Software Developer",
+  "Job Description": "Design and implement blockchain-based applications.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 5,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 22",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Create robust backend services and APIs.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 11,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 81",
+  "Job Title": "Software Developer",
+  "Job Description": "Develop and manage scalable full-stack web applications.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 11,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 48",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 5,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 54",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 3,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 94",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 6,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 33",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 4,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 44",
+  "Job Title": "Data Scientist",
+  "Job Description": "Analyze and interpret complex data to provide insights. Build predictive models using Python, SQL, and machine learning techniques.",
+  "Skills Required": "Python, SQL, Machine Learning",
+  "Salary": 3,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 100",
+  "Job Title": "Software Developer",
+  "Job Description": "Automate infrastructure and CI\/CD pipelines.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 9,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 7",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 20,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 61",
+  "Job Title": "Data Scientist",
+  "Job Description": "Analyze and interpret complex data to provide insights. Build predictive models using Python, SQL, and machine learning techniques.",
+  "Skills Required": "Python, SQL, Machine Learning",
+  "Salary": 19,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 9",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 4,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 23",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 5,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 52",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 4,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 90",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 7,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 97",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 6,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 99",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 16,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 69",
+  "Job Title": "Software Developer",
+  "Job Description": "Ensure the security of systems and mitigate potential threats.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 3,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 37",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 9,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 64",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 18,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 50",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 5,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 60",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 4,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 1",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 9,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 30",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 19,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 35",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 4,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 57",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 6,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 5",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 9,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 34",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 5,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 97",
+  "Job Title": "Software Developer",
+  "Job Description": "Automate infrastructure and CI\/CD pipelines.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 20,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 7",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 19,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 91",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 4,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 58",
+  "Job Title": "Software Developer",
+  "Job Description": "Build machine learning models and pipelines for production.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 3,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 86",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Ensure the security of systems and mitigate potential threats.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 18,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 23",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 19,
+  "Location": "Hyderabad",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 73",
+  "Job Title": "Software Developer",
+  "Job Description": "Ensure the security of systems and mitigate potential threats.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 20,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 70",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 4,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 98",
+  "Job Title": "DevOps Engineer",
+  "Job Description": "Automate and manage CI\/CD pipelines. Work with Docker and Kubernetes to deploy scalable applications.",
+  "Skills Required": "Docker, Kubernetes, CI\/CD",
+  "Salary": 20,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 73",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 7,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 13",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 4,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 42",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 18,
+  "Location": "Bangalore",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 26",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 6,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 16",
+  "Job Title": "Software Developer",
+  "Job Description": "Design, develop, and maintain software applications.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 11,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 76",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 10,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 34",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 11,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 44",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Build machine learning models and pipelines for production.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 19,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 81",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 9,
+  "Location": "Bangalore",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 42",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Analyze data to derive meaningful insights and solutions.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 17,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 79",
+  "Job Title": "Software Developer",
+  "Job Description": "Automate infrastructure and CI\/CD pipelines.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 17,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 76",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 19,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 47",
+  "Job Title": "Software Developer",
+  "Job Description": "Design, develop, and maintain software applications.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 10,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 50",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 14,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 36",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Create robust backend services and APIs.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 14,
+  "Location": "Gurgaon",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 68",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 6,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 56",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 18,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 6",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 20,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 18",
+  "Job Title": "Data Scientist",
+  "Job Description": "Analyze and interpret complex data to provide insights. Build predictive models using Python, SQL, and machine learning techniques.",
+  "Skills Required": "Python, SQL, Machine Learning",
+  "Salary": 9,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 81",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 6,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 41",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 14,
+  "Location": "Noida",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 16",
+  "Job Title": "Frontend Developer",
+  "Job Description": "Create user-friendly interfaces using React.js, JavaScript, and CSS. Collaborate with back-end developers to ensure seamless integration.",
+  "Skills Required": "React.js, JavaScript, CSS",
+  "Salary": 7,
+  "Location": "Pune",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 93",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 10,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 45",
+  "Job Title": "Web3 Developer",
+  "Job Description": "Develop decentralized applications using blockchain technology. Work with smart contracts and Web3 libraries.",
+  "Skills Required": "Blockchain, Smart Contracts, Web3.js",
+  "Salary": 14,
+  "Location": "Hyderabad",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 24",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Analyze data to derive meaningful insights and solutions.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 4,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 4",
+  "Job Title": "Backend Developer",
+  "Job Description": "Develop and maintain server-side applications using Node.js and Python. Focus on API design and database management.",
+  "Skills Required": "Node.js, Python, API Design",
+  "Salary": 8,
+  "Location": "Hyderabad",
+  "Type of Job": "FullTime"
+ },
+ {
+  "Company Name": "Company 71",
+  "Job Title": "Machine Learning Engineer",
+  "Job Description": "Design and implement machine learning models for real-world applications. Use Python and machine learning frameworks extensively.",
+  "Skills Required": "Python, Machine Learning Frameworks",
+  "Salary": 13,
+  "Location": "Pune",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 67",
+  "Job Title": "Full Stack Developer",
+  "Job Description": "Develop and maintain full-stack web applications using JavaScript, React.js, and Node.js. Ensure responsive and scalable design.",
+  "Skills Required": "JavaScript, React.js, Node.js",
+  "Salary": 18,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 65",
+  "Job Title": "Cyber Security Specialist",
+  "Job Description": "Analyze data to derive meaningful insights and solutions.",
+  "Skills Required": "Network Security, Penetration Testing",
+  "Salary": 4,
+  "Location": "Gurgaon",
+  "Type of Job": "Internship"
+ },
+ {
+  "Company Name": "Company 11",
+  "Job Title": "Software Developer",
+  "Job Description": "Design, develop, and maintain software applications.",
+  "Skills Required": "C++, Java, Problem Solving",
+  "Salary": 15,
+  "Location": "Noida",
+  "Type of Job": "FullTime"
+ }
+]

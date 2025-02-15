@@ -1,0 +1,94 @@
+.parentdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formdiv{
+    box-shadow: 10px 10px 5px 12px rgb(178, 33, 218);
+    margin-top: 8rem;
+    height: 30rem;
+    width: 25rem;
+}
+.heading{
+    text-align: center;
+}
+.Email{
+
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+
+}
+.emailheading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.emailinput{
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    width: 20rem;
+    height: 2rem;
+}
+.passwordhide{
+    display: flex;
+    flex-direction: row;
+}
+.input-container{
+    margin-top: 0.6rem;
+    margin-left: 0.2rem;
+}
+.buttonclass{
+   display: flex;
+   justify-content: center;
+   margin-left: 50px;
+}
+.button{
+    width: 20rem;
+    height: 2rem;
+    background-color: #0e6efe;
+    border: 0.5px solid white;
+    color: white;
+    font-weight: bold;
+}
+.newUser{
+    display: flex;
+    flex-direction: row;
+    margin-left: 14rem;
+    gap: 12px;
+    margin-top: 5px;
+}
+.register{
+    color: #0e6efe;
+}
+.continuewith{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6.5rem;
+}
+.imagestyle{
+    height: "100%";
+    width: "100%";
+ }
+
+.googlelogo{
+        width: 10rem;
+        height: 2rem;
+        margin-right: 5rem;
+}
+
+.emailwarning{
+    color: red;
+    margin-left: 5px;
+    display: none;
+}
+.passwordwarning{
+    color: red;
+    margin-left: 5px;
+    display: none;
+}
