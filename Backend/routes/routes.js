@@ -11,6 +11,7 @@ const {salaryfilter} = require('../controller/Salary_Filter')
 const {locationfilter} = require('../controller/Location_Filter')
 const {jobtype} = require('../controller/Job_Type')
 const {Response} = require('../controller/Response')
+const {Predict_Score,Capture_button_response} = require('../controller/Predicted_Score');
 router.get('/alljobs',alljobsdata);
 router.post('/signup',checkcredential,signup);
 router.post('/signin',checkcredentialsignin,signin);
@@ -21,4 +22,6 @@ router.post('/salaryfilter',salaryfilter);
 router.post('/locationfilter',locationfilter);
 router.post('/jobtype',jobtype)
 router.post('/uploadmp3file',upload.single('file'),Response)
+router.get('/runpythoncode',Predict_Score);
+router.post('/capturebuttonresponse',Capture_button_response)
 module.exports = router

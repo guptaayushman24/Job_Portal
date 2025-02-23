@@ -36,7 +36,9 @@ function App() {
   
 </BrowserRouter>
     </UserProvider> */}
-    <HRInterview></HRInterview>
+   <UserProvider>
+   <HRInterview></HRInterview>
+   </UserProvider>
 
     </>
   )
