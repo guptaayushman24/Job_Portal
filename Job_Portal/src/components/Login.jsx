@@ -74,12 +74,17 @@ function Login() {
         // Navigate to the page where there jobs are showing after verifying the user (DataBase)
         try{
             if (emailcheck==true && passwordcheck==true){
-                await axios.post('http://localhost:5000/signin',{
+                const result = await axios.post('http://localhost:5000/signin',{
                     EmailAddress:email,
                     Password:password
                 })
-                setuseremail(email);
-                navigate('/alljobs');
+                if (result.data.msg=='Please check your password'){
+                    alert("Please check your password");
+                }
+                else{
+                    setuseremail(email);
+                    navigate('/alljobs');
+                }
 
             }
         }

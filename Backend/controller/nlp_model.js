@@ -7,6 +7,8 @@ function checkscore(req, res) {
     try {
         // Define user skills and job descriptions
         const { userSkills, jobDescriptions } = req.body;
+        console.log(userSkills);
+        console.log("The job description is",jobDescriptions);
 
         if (!userSkills) {
             return res.json({

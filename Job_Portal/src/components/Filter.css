@@ -1,0 +1,36 @@
+.filter-parent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.salaryfilter{
+    display: flex;
+    flex-direction: column;
+    gap:2rem
+}
+.button-salary-filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.button-salary-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.button-location{
+    width: 6rem;
+}

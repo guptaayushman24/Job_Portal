@@ -1,59 +1,27 @@
-const { date } = require('zod');
 const Alljobs = require('../schema/All_jobs');
 async function salaryfilter (req,res){
-    try{
-        const salary = req.body; // Assuming req.body contains the Salary value
-
-        if (salary.Salary >= 3 && salary.Salary <= 7) {
+        try {
+            // Extract query parameters (start & end)
+            const start = parseInt(req.query.start);
+            const end = parseInt(req.query.end);
+    
+            // Validate query parameters
+            if (isNaN(start) || isNaN(end)) {
+                return res.status(400).json({ msg: "Invalid salary range provided" });
+            }
+    
+            // Fetch jobs within salary range
             const data = await Alljobs.find()
-              .where('Salary')
-              .gte(3)
-              .lte(7);
-        
-            return res.status(200).json({
-              msg: data
-            });
-        } 
-        else if (salary.Salary >= 8 &&  salary.Salary <= 10){
-            const data = await Alljobs.find()
-            .where('Salary')
-            .gte(8)
-            .lte(10)
-            return res.status(200).json({
-                'msg':data
-            })
+                .where("Salary")
+                .gte(start)
+                .lte(end);
+    
+            return res.status(200).json({ msg: data });
+    
+        } catch (err) {
+            return res.status(500).json({ msg: "Server Error", error: err.message });
         }
-        else if (salary.Salary>=11 && salary.Salary<=15){
-            const data = await Alljobs.find()
-            .where('Salary')
-            .gte(11)
-            .lte(15)
-            return res.status(200).json({
-                'msg':data
-            })
-        }
-        else if (salary.Salary>=16 && salary.Salary<=20){
-            const data = await Alljobs.find()
-            .where('Salary')
-            .gte(16)
-            .lte(20)
-            return res.json({
-                'msg':data
-            })
-        }
-         else {
-          return res.status(400).json({
-            msg: "Invalid salary range provided"
-          });
-        }
-        
-    }
-    catch(err){
-        return res.json({
-            'msg':err
-        })
-    }
-}
+    };
 module.exports = {
     salaryfilter
 }

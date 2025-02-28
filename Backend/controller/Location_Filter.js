@@ -10,7 +10,7 @@ async function locationfilter (req,res){
             'msg':data
         })
         }
-        else if (location.Location=='Bangalore'){
+        else if (location.Location=='Banglore'){
             const data = await AllJobs.find()
             .where('Location')
             .equals('Bangalore')

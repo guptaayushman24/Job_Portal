@@ -18,7 +18,7 @@ router.post('/signin',checkcredentialsignin,signin);
 router.post('/userprofile',checkprofilecredential,userprofile);
 router.post('/userskills',getprofileskill);
 router.post('/check_similarity',checkscore);
-router.post('/salaryfilter',salaryfilter);
+router.get('/salaryfilter',salaryfilter);
 router.post('/locationfilter',locationfilter);
 router.post('/jobtype',jobtype)
 router.post('/uploadmp3file',upload.single('file'),Response)

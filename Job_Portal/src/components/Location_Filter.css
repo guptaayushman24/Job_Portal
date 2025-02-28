@@ -1,0 +1,53 @@
+.parent-a{
+    display: flex;
+    flex-direction: column;
+}
+.alljobs-jobsetails {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap properly */
+    width: 85%;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Add spacing between elements */
+}
+
+.alljobs-jobsdetailscards {
+    display: flex;
+    flex-wrap: wrap; /* Ensure job cards wrap properly */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.alljobs-parent {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 1rem;
+    width: 25rem; /* Increase width for better layout */
+    padding: 1rem;
+}
+
+.alljobs-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.alljobs-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.pagination-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+}

@@ -32,9 +32,9 @@ async function signin (req,res){
             'msg':'User Found'
         })
     }
-    return res.json({
-        'msg':'Please check the password'
-    })
+        return res.json({
+            'msg':'Please check your password'
+        })
 }
 module.exports = {
     signup,

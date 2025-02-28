@@ -5,28 +5,33 @@
 
 .alljobs-heading-parent {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center; 
     justify-content: center; 
+    justify-content: space-evenly;
     height: 100%;
 }
 .filterandjoddetails{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 .alljobs-filters{
     height: 65rem;
-    width: 15%;
+    width: 200px;
     background-color: red;
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+
+}
+.filter-a{
+    background-color: brown;
 }
 .alljobs-jobsetails{
     display: flex;
-    height: 65rem;
-    width: 85%;
-    background-color: grey;
-    margin-top: 5rem;
-    justify-content: center;
+    overflow: hidden;
 
 }
 .alljobs-cards{

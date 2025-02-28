@@ -1,0 +1,18 @@
+.pagination{
+    display: flex;
+    flex-wrap: wrap;  /* Allow wrapping */
+    justify-content: center;
+    gap: 10px; /* Add spacing */
+    width: 100%;
+}
+.pagination_disable{
+opacity: 0;
+}
+.pagination>span{
+padding: 15px 20px;
+border: 1rem solid gray;
+cursor: pointer;
+}
+.paginationselected{
+background-color: rgb(220, 220, 220);
+}
