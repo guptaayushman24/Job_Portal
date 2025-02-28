@@ -2,6 +2,7 @@ const AllJobs = require('../schema/All_jobs');
 async function jobtype (req,res){
     try{
         const type = req.body;
+        console.log(type);
         if (type.TypeofJob=='FullTime'){
            const data = await AllJobs.find()
            .where('TypeofJob')

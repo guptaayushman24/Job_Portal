@@ -10,7 +10,10 @@ function Filter() {
     const {setsalaryfilterclick} = useContext(UserContext);
     const {setlocationfilter} = useContext(UserContext);
     const {setlocationfilterclick} = useContext(UserContext);
+    const {setjobtypefilter} = useContext(UserContext);
+    const {setjobtypeclicked} = useContext(UserContext);
     const [locationclicked,setlocationclicked] = useState('');
+    const [jobtypeselected,setjobtypeselected] = useState('');
     async function salaryfilter(start,end,id){
        try{
         if (start==3 && end==7 && id=='btn1'){
@@ -18,28 +21,32 @@ function Filter() {
             setstartrange(start);
             setendrange(end);
             setsalaryfilterclick(true)
-            setlocationfilter(false)
+            setlocationfilter(false);
+            setjobtypeclicked(false);
         }
         else if (start==8 && end==10 && id=='btn2'){
             console.log("Second")
             setstartrange(start);
             setendrange(end);
             setsalaryfilterclick(true);
-            setlocationfilter(false)
+            setlocationfilter(false);
+            setjobtypeclicked(false);
         }
         else if (start==11 && end==15 && id=='btn3'){
             console.log("Third");
             setstartrange(start);
             setendrange(end);
             setsalaryfilterclick(true);
-            setlocationfilter(false)
+            setlocationfilter(false);
+            setjobtypeclicked(false);
         }
         else if (start==16 && end==20 && id=='btn4'){
             console.log("Four");
             setstartrange(start);
             setendrange(end);
             setsalaryfilterclick(true);
-            setlocationfilter(false)
+            setlocationfilter(false);
+            setjobtypeclicked(false);
         }
             const result = await axios.get(`http://localhost:5000/salaryfilter?start=${startrange}&end=${endrange}`);
             setfilteredlist(Object.values(result.data));
@@ -60,6 +67,7 @@ function Filter() {
             setlocationfilter(Object.values(result.data));
             setlocationfilterclick(true);
             setsalaryfilterclick(false);
+            setjobtypeclicked(false);
 
             // console.log("Location filter is",result.data)
         }
@@ -67,11 +75,26 @@ function Filter() {
             console.log(err);
         }
     }
+
+    async function jobtype(typeofjob){
+        console.log("Job Type selected",typeofjob);
+        setjobtypeselected(typeofjob);
+
+        const result = await axios.post('http://localhost:5000/jobtype',{
+            'TypeofJob':jobtypeselected
+        })
+        console.log("Job type in Filter.jsx",result.data);
+        setjobtypefilter(Object.values(result.data));
+        setlocationfilterclick(false);
+        setsalaryfilterclick(false);
+        setjobtypeclicked(true)
+
+    }
     useEffect(()=>{
         salaryfilter(startrange,endrange)
         locationfilter(locationclicked)
         console.log("Location selected",locationclicked);
-    },[startrange,endrange,locationclicked]);
+    },[startrange,endrange,locationclicked,jobtypeselected]);
    
     return (
         <div className="filter-parent">
@@ -100,8 +123,8 @@ function Filter() {
 
                 <div className="button-salary-location">
                     <div>Type of Job</div>
-                    <button className="button-location">Full Time</button>
-                    <button className="button-location">Internship</button>
+                    <button className="button-location" onClick={()=>jobtype("FullTime")}>Full Time</button>
+                    <button className="button-location" onClick={()=>jobtype("Internship")}>Internship</button>
                 </div>
             </div>
         </div>

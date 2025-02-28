@@ -7,6 +7,7 @@ import AllJobs from "./AllJobs";
 import './Main_Page.css'
 import Threetoseven from "./Salary_Filter";
 import LocationFilter from "./Location_Filter";
+import JobType from "./Job_Type";
 function MainPage() {
     const [page, setPage] = useState(1);
     const contextdata = useContext(UserContext);
@@ -61,10 +62,13 @@ function MainPage() {
                                 <Threetoseven />
                             ) : contextdata.locationfilterclick && !contextdata.salaryfilterclick ? (
                                 <LocationFilter />
+                            ) : contextdata.jobtypeclicked && !contextdata.salaryfilterclick && !contextdata.locationfilterclick ? (
+                                <JobType />
                             ) : (
                                 <AllJobs />
                             )}
                         </>
+
                     </div>
                 </div>
 
