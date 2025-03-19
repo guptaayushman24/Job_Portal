@@ -1,4 +1,7 @@
+const config = require('../env_file')
+const jwt = require('jsonwebtoken');
 const UserSchema = require('../schema/User_Schema');
+const JWT_SECRET = config.env;
 async function signup (req,res){
     try{
         const data = req.body;
@@ -27,16 +30,32 @@ async function signin (req,res){
             'msg':"Please check the email address"
         })
     }
-    if (userenterdpassword===password.Password){
+    if (userenterdpassword === password.Password) {
+        const token = jwt.sign({ id: email }, JWT_SECRET);
+        res.cookie("token", token, {
+            httpOnly: true, 
+            secure: false,  
+            sameSite: "Lax"
+        });
         return res.json({
-            'msg':'User Found'
-        })
+            message: "Logged in",
+            msg: "User Found"
+        });
     }
-        return res.json({
-            'msg':'Please check your password'
-        })
+}
+async function logout(req,res){
+    res.cookie("token", "", {
+        httpOnly: true, 
+        secure: false,  
+        sameSite: "Lax"
+    });
+     return res.json({
+        "message":"logout"
+     })
+    
 }
 module.exports = {
     signup,
     signin,
+    logout
 }

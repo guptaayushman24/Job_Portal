@@ -17,7 +17,9 @@ function AllJobs() {
     const contextdata = useContext(UserContext);
     const itemPerPage = 5;
     async function showalljobs() {
-        const data = await axios.get('http://localhost:5000/alljobs');
+        const data = await axios.get('http://localhost:5000/alljobs',{
+            withCredentials:true
+        });
         console.log(data.data);
         setalldata(Object.values(data.data.Job_Data));
     }
@@ -27,6 +29,8 @@ function AllJobs() {
         try {
             const result = await axios.post('http://localhost:5000/userskills', {
                 Email:contextdata.useremail
+            },{
+                withCredentials:true
             })
             // console.log("User skills are",result);
             // console.log("Email address from the context is",contextdata.useremail);
@@ -43,7 +47,12 @@ function AllJobs() {
                 userSkills: contextdata.userskills,
                 jobDescriptions: alldata[index].JobDescription
             })
-            setjobscore(score.data.similarityScore);
+            if (jobscore==null){
+                alert("Please wait for the result");
+            }
+            else{
+                alert("The job score is",jobscore);
+            }
            
             if (score.data.similarityScore*100>=40 && score.data.similarityScore*100<50){
                 alert(`You job score is ${score.data.similarityScore*100} some skills are missing in your skill set according to job description`);

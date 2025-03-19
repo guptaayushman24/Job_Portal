@@ -15,7 +15,7 @@ function Landing_Page() {
                 <div className='Header'>
                     <div className='websitename'> AI Powered Job Portal</div>
                     
-                        <button className='post-job-btn'>Post Job</button>
+                        <button className='post-job-btn' onClick={()=>navigate('/adminsignup')}>Post Job</button>
                     
                     <div className='subheader'>
                     <div className='websitename'>

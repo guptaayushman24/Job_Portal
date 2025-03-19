@@ -96,3 +96,8 @@
 .pagination_disable{
     opacity: 0;
 }
+.hrandlogout{
+    display: flex;
+    flex-direction: row;
+    gap:2rem
+}

@@ -9,8 +9,12 @@ import Profile_Page from './components/Profile_Page'
 import MainPage from './components/Main_Page'
 import UserProvider from './Context/Context'
 import  HRInterview  from './components/HR_Interview'
+import AdminSignup from './components/Admin_Signup'
+import AdminSignin from './components/Admin_Signin'
 import './App.css'
 import {BrowserRouter, Routes,Route} from "react-router-dom"
+import Post_Job from './components/Post_Job'
+
 function App() {
   
 
@@ -27,6 +31,10 @@ function App() {
     <Route path='/profile' element={<Profile_Page></Profile_Page>}></Route>
     <Route path='/alljobs' element={<MainPage></MainPage>}></Route>
     <Route path='/hrinterview' element={<HRInterview></HRInterview>}></Route>
+    <Route path='/adminsignup' element={<AdminSignup></AdminSignup>}></Route>
+    <Route path='/adminsignin' element={<AdminSignin></AdminSignin>}></Route>
+    <Route path='/postjob' element={<Post_Job></Post_Job>}></Route>
+   
     
     </Routes>
   
@@ -35,10 +43,11 @@ function App() {
  
    
 
-   {/* <HRInterview></HRInterview> */}
+
 
     </>
   )
 }
 
 export default App
+ 

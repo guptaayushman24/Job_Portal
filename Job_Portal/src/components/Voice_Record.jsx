@@ -17,9 +17,17 @@ const VoiceRecorder = () => {
   const {setscore} = useContext(UserContext);
   const questions = [
     "Tell me about yourself ?",
-    "Why should we hire you?"
-    
-  ]; 
+    "Why should we hire you?",
+    "Can you work under pressure?",
+    "How do you deal with conflict?",
+    "How do you handle stress ?",
+    "Why this role attract you ?",
+    "Would you lie for the company ?",
+    "What are your strengths ?",
+    "What are your weaknesses ?",
+    "Do you have any questions?",
+
+  ];
 
   useEffect(() => {
     async function getMicrophone() {
@@ -90,6 +98,7 @@ const VoiceRecorder = () => {
           },
             body: JSON.stringify({
                 question: questions[contextindex.contextindex] // Ensure it's correctly defined
+                // question:'Tell me about yourself'
             })
         })
         .then(response=>response.json())

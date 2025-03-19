@@ -77,6 +77,8 @@ function Login() {
                 const result = await axios.post('http://localhost:5000/signin',{
                     EmailAddress:email,
                     Password:password
+                },{
+                    withCredentials:true
                 })
                 if (result.data.msg=='Please check your password'){
                     alert("Please check your password");
@@ -87,6 +89,7 @@ function Login() {
                 }
 
             }
+            console.log("Result in signin is",result);
         }
         catch(err){
             console.log(err);
@@ -115,7 +118,7 @@ function Login() {
         <div>
             <div className='parentdiv'>
 
-                <div className='formdiv'>
+                <div className='signin-formdiv'>
                     {/* div->heading */}
                     <div className='heading'>
                         <h2>Login</h2>

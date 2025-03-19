@@ -2,6 +2,7 @@ const Profile = require('../schema/Profile_Schema');
 async function userprofile (req,res){
     try{
         const data = req.body;
+        console.log(data);
         await Profile(data).save();
         return res.status(201).json({
             'msg':data

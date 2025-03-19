@@ -3,11 +3,12 @@
     justify-content: center;
     align-items: center;
 }
-.formdiv{
-    box-shadow: 10px 10px 5px 12px rgb(178, 33, 218);
+.signin-formdiv{
     margin-top: 8rem;
     height: 30rem;
     width: 25rem;
+    justify-content: center;
+    text-align: center;
 }
 .heading{
     text-align: center;
@@ -44,6 +45,7 @@
 .button{
     width: 20rem;
     height: 2rem;
+    gap: 2rem;
     background-color: #0e6efe;
     border: 0.5px solid white;
     color: white;

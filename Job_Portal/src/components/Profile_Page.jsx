@@ -44,12 +44,13 @@ function Profile_Page() {
             const skillsArrayToSubmit = Array.from(skillsarray);
             console.log("Array is", skillsArrayToSubmit);
 
-            await axios.post('http://localhost:5000/userprofile', {
+           const data1  =  await axios.post('http://localhost:5000/userprofile', {
                 Email: data.useremail,
                 Skills: skillsArrayToSubmit,
                 JobType: jobtype && jobtype.trim() !== '' ? jobtype : 'Job',
                 PreferedLocation: preferedlocation && preferedlocation.trim() !== '' ? preferedlocation : 'Banglore',
             });
+            console.log(data1);
 
             alert("Profile updated successfully!");
             navigate('/alljobs');
@@ -65,7 +66,8 @@ function Profile_Page() {
         console.log(data);
         console.log(jobtype);
         console.log(preferedlocation);
-    })
+        console.log(data.useremail);
+    },[data])
     return (
         <>
             <div className="pp-parent">

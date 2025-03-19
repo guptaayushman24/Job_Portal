@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef ,useContext} from 'react'
 import './Signup.css'
 // import { useForm } from 'react-hook-form';
 // import { auth } from './Firebase';
@@ -8,6 +8,7 @@ import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark, faUser,faCalendar, faEye } from '@fortawesome/free-solid-svg-icons';
+import { UserContext } from '../Context/Context';
 function Signup() {
     const [fname, Setfname] = useState('');
     const [lname, Setlname] = useState('');
@@ -25,6 +26,8 @@ function Signup() {
 
     const [showhidepassword,setshowhidepassword] = useState('');
     const [currentstate,setcurrentstate] = useState('password');
+
+    const {setuseremail} = useContext(UserContext);
     
     const navigate = useNavigate();
 
@@ -162,6 +165,7 @@ function Signup() {
                 EmailAddress:email,
                 Password:password
             })
+            setuseremail(email);
             navigate('/profile');
            }
            catch(err){

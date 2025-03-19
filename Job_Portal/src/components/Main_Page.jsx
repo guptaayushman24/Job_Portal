@@ -1,10 +1,10 @@
+import './Main_Page.css'
 import React, { useEffect, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { UserContext } from "../Context/Context";
 import Filter from "./Filter";
 import AllJobs from "./AllJobs";
-import './Main_Page.css'
 import Threetoseven from "./Salary_Filter";
 import LocationFilter from "./Location_Filter";
 import JobType from "./Job_Type";
@@ -17,7 +17,9 @@ function MainPage() {
     const navigate = useNavigate();
     console.log("All data", contextdata.alldata)
     async function showalljobs() {
-        const data = await axios.get('http://localhost:5000/alljobs');
+        const data = await axios.get('http://localhost:5000/alljobs',{
+            withCredentials:true
+        });
         console.log(typeof (data.data.Job_Data));
         setalldata(data.data.Job_Data);
     }
@@ -28,6 +30,14 @@ function MainPage() {
             setPage(selectedPage);
         }
 
+    }
+    async function logout(){
+        await axios.post('http://localhost:5000/logout',{
+
+        },{
+            withCredentials:true
+        })
+        navigate('/');
     }
     function prepareforhrinterview() {
         navigate('/hrinterview');
@@ -41,8 +51,9 @@ function MainPage() {
                     <div>
                         Explore Jobs
                     </div>
-                    <div>
+                    <div className="hrandlogout">
                         <button onClick={prepareforhrinterview}>Prepare for the HR Interview</button>
+                        <button className="logout"onClick={logout}>Log Out</button>
                     </div>
                 </div>
 
