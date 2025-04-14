@@ -14,6 +14,7 @@ import AdminSignin from './components/Admin_Signin'
 import './App.css'
 import {BrowserRouter, Routes,Route} from "react-router-dom"
 import Post_Job from './components/Post_Job'
+import RecommendedJob from './components/Recommended_Job'
 
 function App() {
   
@@ -34,6 +35,7 @@ function App() {
     <Route path='/adminsignup' element={<AdminSignup></AdminSignup>}></Route>
     <Route path='/adminsignin' element={<AdminSignin></AdminSignin>}></Route>
     <Route path='/postjob' element={<Post_Job></Post_Job>}></Route>
+    <Route path='/recommendedjob' element={<RecommendedJob></RecommendedJob>}></Route>
    
     
     </Routes>

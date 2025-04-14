@@ -13,12 +13,10 @@
 }
 .filterandjoddetails{
     display: flex;
-    /* flex-direction: row; */
 }
 .alljobs-filters{
     height: 65rem;
     width: 200px;
-    background-color: red;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -69,7 +67,6 @@
     flex-direction: column;
     margin-top: 0.2rem;
     gap: 2rem;
-    background-color: gray;
 }
 .alljobs-parent{
     display: flex;

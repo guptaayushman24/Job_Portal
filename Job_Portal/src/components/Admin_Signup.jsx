@@ -18,6 +18,7 @@ function AdminSignup() {
         })
         console.log(data);
         alert("Signup Successful!");
+        navigate('/postjob');
     };
     return (
        <div className="signup-body">

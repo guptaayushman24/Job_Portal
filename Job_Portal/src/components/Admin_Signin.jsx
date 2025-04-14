@@ -16,6 +16,7 @@ function AdminSignin() {
         })
         console.log(data);
         alert("Sigin Successful!");
+        navigate('/postjob');
     };
     return (
        <div className="signin-body">

@@ -14,6 +14,7 @@ function MainPage() {
     const [userskills, setuserskills] = useState([]);
     const [jobscore, setjobscore] = useState(0);
     const { setalldata } = useContext(UserContext);
+    const [data,setdata] = useState([]);
     const navigate = useNavigate();
     console.log("All data", contextdata.alldata)
     async function showalljobs() {
@@ -22,11 +23,11 @@ function MainPage() {
         });
         console.log(typeof (data.data.Job_Data));
         setalldata(data.data.Job_Data);
+        setdata(data.data.Job_Data);
     }
     function selectPageHandler(selectedPage) {
         console.log(selectedPage);
         if (selectedPage >= 1 && selectedPage <= contextdata.alldata.length / 5 && selectedPage != page) {
-
             setPage(selectedPage);
         }
 
@@ -38,6 +39,39 @@ function MainPage() {
             withCredentials:true
         })
         navigate('/');
+    }
+    async function recommendedjobs(){
+        showalljobs();
+        console.log("The email address logged in",contextdata.useremail)
+        console.log("The skills are",contextdata.userskills)
+        const userskills = contextdata.userskills;
+        console.log("The length of the data is",contextdata.alldata);
+        console.log("The description",contextdata.alldata[0].JobDescription);
+        for (let i=contextdata.alldata.length-1;i>=0;i--){
+            console.log("Value of i is",i);
+            const score = await axios.post('http://localhost:5000/recommendedjob',{
+                userSkills:userskills,
+                jobDescriptions:contextdata.alldata[i].JobDescription
+            })
+            if (score.data.similarityScore*100>=40 ){
+                await axios.post('http://localhost:5000/saverecommendedjob',{
+                    Email:contextdata.useremail,
+                    JobTitle:contextdata.alldata[i].JobTitle,
+                    JobDescription:contextdata.alldata[i].JobDescription,
+                    SkillsRequired:contextdata.alldata[i].SkillsRequired,
+                    Salary:contextdata.alldata[i].Salary,
+                    Location:contextdata.alldata[i].Location,
+                    TypeofJob:contextdata.alldata[i].TypeofJob
+                })
+                console.log("A new job is added according to your skills")
+                console.log(contextdata.alldata[i].JobDescription)
+            }
+        }
+
+        alert("Recommended Jobs")
+    }
+    function showrecommendedjobs (){
+       navigate('/recommendedjob');
     }
     function prepareforhrinterview() {
         navigate('/hrinterview');
@@ -53,6 +87,8 @@ function MainPage() {
                     </div>
                     <div className="hrandlogout">
                         <button onClick={prepareforhrinterview}>Prepare for the HR Interview</button>
+                        <button className="logout"onClick={recommendedjobs}>Check Recommended Jobs</button>
+                        <button className="logout"onClick={showrecommendedjobs}>Recommended Jobs</button>
                         <button className="logout"onClick={logout}>Log Out</button>
                     </div>
                 </div>
